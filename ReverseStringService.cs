@@ -12,7 +12,7 @@ namespace ReverseString
 
         public void ReverseString()
         {
-            var inputString = _configuration.GetSection("Variables").GetSection("inputString").Value;
+            var inputString = Environment.GetEnvironmentVariable("inputString");
 
             Console.WriteLine($"Input string - {inputString}");
 

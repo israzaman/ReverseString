@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "ReverseString": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "inputString": "TestString"
+      }
+    }
+  }
+}
